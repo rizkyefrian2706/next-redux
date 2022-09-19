@@ -3,7 +3,6 @@ import thunk from "redux-thunk"
 import { composeWithDevTools } from "redux-devtools-extension";
 import { createWrapper } from "next-redux-wrapper"
 import rootReducer from "./reducers/rootReducer"
-
 const middleware = [thunk] 
 
 // initial states here
